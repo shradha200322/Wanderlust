@@ -81,9 +81,7 @@ app.listen(8080,()=>{
 app.use("/listings",listings);
 app.use("/",userRoute);
 
-app.get("/",(req,res)=>{
-    res.send("hii i am shradha");
-})
+
 
 
 
